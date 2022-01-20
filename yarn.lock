@@ -2381,7 +2381,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:*":
+"@types/eslint@npm:*, @types/eslint@npm:^8":
   version: 8.4.0
   resolution: "@types/eslint@npm:8.4.0"
   dependencies:
@@ -6813,7 +6813,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.2.0, eslint@npm:^8.6.0":
+"eslint@npm:^8.2.0, eslint@npm:^8.6.0, eslint@npm:^8.7.0":
   version: 8.7.0
   resolution: "eslint@npm:8.7.0"
   dependencies:
@@ -8050,8 +8050,10 @@ __metadata:
     "@cutting/util": ^4.29.4
     "@jest/globals": ^27.4.6
     "@rollup/plugin-commonjs": ^21.0.1
+    "@types/eslint": ^8
     "@typescript-eslint/eslint-plugin": ^5.10.0
     "@vanilla-extract/babel-plugin": ^1.1.4
+    eslint: ^8.7.0
     jest: ^27.4.7
     nodemon: ^2.0.15
     ts-jest: ^27.1.3

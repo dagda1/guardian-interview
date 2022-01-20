@@ -19,6 +19,7 @@
     "@cutting/util": "^4.29.4",
     "@jest/globals": "^27.4.6",
     "@rollup/plugin-commonjs": "^21.0.1",
+    "@types/eslint": "^8",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@vanilla-extract/babel-plugin": "^1.1.4",
     "jest": "^27.4.7",
@@ -39,5 +40,8 @@
   },
   "volta": {
     "node": "16.13.2"
+  },
+  "dependencies": {
+    "eslint": "^8.7.0"
   }
 }

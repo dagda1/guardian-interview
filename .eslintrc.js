@@ -1,8 +1,0 @@
-module.exports = {
-  root: true,
-  extends: ['@cutting/eslint-config/node'],
-  rules: {
-    'eslint-disable jest/consistent-test-it': ['off'],
-    'no-done-callback': ['off'],
-  },
-};
